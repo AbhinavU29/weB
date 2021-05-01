@@ -231,6 +231,12 @@ span,a{
   font-family: "montserrat",sans-serif;
 }
 .contact-section{
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	}
+.contact-section{
  /*background: url(../images/abhihead.jpg) no-repeat center;*/
  	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/abhihead.jpg);
   background-size: cover;
