@@ -15,15 +15,17 @@
   </head>
   <body>
 
-<div class="contact-section">
+ <div class="contact-section">
 
   <h1>Contact Us</h1>
   <!-- <div class="border"></div> -->
-  <form class="contact-form" action="index.html" method="post">
-    <input type="text" class="contact-form-text" placeholder="Your name" required>
-    <input type="email" class="contact-form-text" placeholder="Your email" required>
-    <input type="text" class="contact-form-text" placeholder="Your phone"required >
-    <textarea class="contact-form-text" placeholder="Your message"></textarea>
+  <form class="contact-form" action="" method="post" name="web-sheet">
+    <!-- <form method="post" autocomplete="off" name="web-sheet"> -->
+    <!-- <div class="contact-section"> -->
+    <input type="text" class="contact-form-text" placeholder="Your name" name="name" required>
+    <input type="email" class="contact-form-text" placeholder="Your email" name="email" required>
+    <input type="text" class="contact-form-text" placeholder="Your phone" name="phone" required >
+    <textarea class="contact-form-text" placeholder="Your message" name="message"></textarea>
     <input type="submit" class="contact-form-btn" value="Send">
   </form>
 </div>
@@ -54,5 +56,20 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
+<!-- ---------------------------------------------- -->
+<script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycby41PwcWDugHVpAmC-QP2rWkJTcWNSOjoHZ70Vly4cPtfnSs6zGZJNAi-aC9FGnrcbR2Q/exec'
+            const form = document.forms['web-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </body>
 </html>
