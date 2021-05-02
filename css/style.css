@@ -49,7 +49,7 @@ span,a{
 .banner{
 	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/abhihead.jpg);
 	background-attachment: fixed;
-	/*height: 100vh;*/
+	height: 100vh;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
