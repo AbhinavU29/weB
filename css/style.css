@@ -324,7 +324,7 @@ textarea.contact-form-text{
 
 .slides{
   width: 500%;
-  height: 290px;
+  height: 330px;
   display: flex;
 }
 
@@ -338,7 +338,7 @@ textarea.contact-form-text{
 }
 
 .slide img{
-  width: 800px;
+  width: 700px;
   height: 400px;
 }
 
