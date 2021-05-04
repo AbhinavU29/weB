@@ -54,6 +54,8 @@ span,a{
 	display: flex;
 	flex-direction: column;
 	align-items: center; 
+	background-size: cover;
+	/* height: calc(100vh - 80px); */
 }
 
 .banner .caption h4{
@@ -313,15 +315,16 @@ textarea.contact-form-text{
 /*}*/
 
 .slider{
-  width: 800px;
-  height: 400px;
+  width: 700px;
+  height: 600px;
   border-radius: 10px;
+  margin-bottom: 50px;
   overflow: hidden;
 }
 
 .slides{
   width: 500%;
-  height: 500px;
+  height: 290px;
   display: flex;
 }
 
@@ -336,14 +339,14 @@ textarea.contact-form-text{
 
 .slide img{
   width: 800px;
-  height: 500px;
+  height: 400px;
 }
 
 /*css for manual slide navigation*/
 
 .navigation-manual{
   position: absolute;
-  width: 800px;
+  width: 700px;
   margin-top: -40px;
   display: flex;
   justify-content: center;
@@ -381,8 +384,8 @@ textarea.contact-form-text{
   margin-left: -60%;
 }
 
-#radio5:checked ~ .first{
-  margin-left: -80%;
+/*#radio5:checked ~ .first{*/
+  /*margin-left: -80%;*/
 }
 
 /*css for automatic navigation*/
@@ -422,9 +425,12 @@ textarea.contact-form-text{
   background: #40D3DC;
 }
 
-#radio5:checked ~ .navigation-auto .auto-btn4{
-  background: #40D3DC;
+/*#radio5:checked ~ .navigation-auto .auto-btn4{*/
+  /*background: #40D3DC;*/
 
+}
+/*.navigation2{*/
+	/*margin-top: 1000px;*/
 }
 /*------------------------------------------------------------------*/
 /*image portfoliyo*/
@@ -488,6 +494,9 @@ li, a, button{
 
         text-decoration: none;
     }
+    li, a{
+    	margin-top: 7px;
+    }
 
     header{
         display: flex;
@@ -526,4 +535,13 @@ button{
 
 button:hover {
     background-color: rgba(0, 136, 169, 0.82);
+}
+/*-------------------------------------------------------*/
+/*option button*/
+label.logo{
+  color: white;
+  font-size: 30px;
+  line-height: 50px;
+  padding: 0 100px;
+  font-weight: bold;
 }
