@@ -11,6 +11,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 }
+
 .mt-20{
 	margin-top: 20px;
 }
@@ -64,10 +65,17 @@ span,a{
 	font-weight: 400;
 }
 
+
 .banner .caption h2{
 	color: #fff;
 	font-size: 70px;
 	letter-spacing: -1px;
+}
+@media (max-width: 600px){
+  .banner .caption h2{
+    font-size: 40px;
+  }
+  
 }
 
 .banner .caption p{
@@ -241,6 +249,13 @@ span,a{
 	background-position: center;
 	background-repeat: no-repeat;
 	}
+@media (max-width: 400px){
+  contact-form-text{
+    margin: 10px ;
+
+
+  }
+}
 .contact-section{
  /*background: url(../images/abhihead.jpg) no-repeat center;*/
  	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/abhihead.jpg);
@@ -263,7 +278,7 @@ span,a{
 }
 
 .contact-form{
-  max-width: 600px;
+  max-width: 400px;
   margin: auto;
   padding: 0 10px;
   overflow: hidden;
@@ -321,6 +336,7 @@ textarea.contact-form-text{
   margin-bottom: 50px;
   overflow: hidden;
 }
+
 
 .slides{
   width: 500%;
@@ -538,10 +554,23 @@ button:hover {
 }
 /*-------------------------------------------------------*/
 /*option button*/
-label.logo{
+.logoname{
   color: white;
   font-size: 30px;
   line-height: 50px;
   padding: 0 100px;
   font-weight: bold;
+ 
+  margin-right: auto
+}
+
+@media (max-width:400px){
+  .logoname{
+    color: white;
+    font-size: 10px;
+    /* line-height: 30px; */
+    /* padding: 0 100px; */
+    /* font-weight: bold; */
+    margin-left: auto;
+    }
 }
