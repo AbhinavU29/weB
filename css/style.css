@@ -480,13 +480,13 @@ textarea.contact-form-text{
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-  filter: grayscale(1) brightness(0.5);
+  /* filter: grayscale(1) brightness(0.5); */
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s linear;
 }
 .column img:hover {
-  filter: grayscale(0);
+  /* filter: grayscale(0); */
 }
 @media screen and (max-width: 800px) {
   .column {
