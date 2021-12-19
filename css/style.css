@@ -637,6 +637,36 @@ header .logo2{
     width: 50%;
     margin-top: 30px;
   }
+
+  
+#phone #social.icon{
+	margin: 0 auto;
+	width: 100%;
+
+}
+#phone #social.icon a{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+	background: #252525;
+	transition: 0.5s all;
+  letter-spacing: 2px
+}
+
+#phone #social.icon a i{
+	color: rgb(220, 32, 32);
+	font-size: 14px;
+}
+#phone #social.icon a:hover{
+	background: #1957f3;
+
+}
+
+
+}
   #desk{
     display: none;
    
