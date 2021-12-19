@@ -630,8 +630,17 @@ header .logo2{
     display: flex;
     justify-content: center;
     align-items:center;
+
+    flex-direction: column;
+  }
+  #phone #ph-img{
+    width: 50%;
+    margin-top: 30px;
   }
   #desk{
     display: none;
+   
+    
   }
+
 }
