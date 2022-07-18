@@ -617,8 +617,8 @@ header .logo2{
 }
 
 /* For mobile responsiveness */
-/* #phone{
-  display: none;
+
+/*   display: none;
   height:100vh;
   width: 100vw;
   font-size: 10px;
@@ -672,5 +672,4 @@ header .logo2{
    
     
   }
-
  */
