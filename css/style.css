@@ -617,7 +617,7 @@ header .logo2{
 }
 
 /* For mobile responsiveness */
-#phone{
+/* #phone{
   display: none;
   height:100vh;
   width: 100vw;
@@ -666,11 +666,11 @@ header .logo2{
 }
 
 
-}
+
   #desk{
     display: none;
    
     
   }
 
-}
+ */
